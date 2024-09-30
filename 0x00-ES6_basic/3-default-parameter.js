@@ -1,4 +1,4 @@
 // export deault functions
-export default function returnHowManyArguments(...args) {
-  return args.length;
+export default function getSumOfHoods(initialNumber, expansion1989 = 89, expansion2019 = 19) {
+  return initialNumber + expansion1989 + expansion2019;
 }
