@@ -1,4 +1,4 @@
-mport Car from './10-car';
+import Car from './10-car';
 
 // EVCar class
 export default class EVCar extends Car {
