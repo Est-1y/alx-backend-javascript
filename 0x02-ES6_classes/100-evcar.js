@@ -1,7 +1,6 @@
 /* disabling eslint */
 import Car from './10-car';
 
-// Default class
 export default class EVCar extends Car {
 	constructor(brand, motor, color, range) {
 		super(brand, motor, color);
