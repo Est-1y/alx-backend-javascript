@@ -1,13 +1,17 @@
-/* disabling eslint */
-import Car from './10-car';
+mport Car from './10-car';
 
+// EVCar class
 export default class EVCar extends Car {
-	constructor(brand, motor, color, range) {
-		super(brand, motor, color);
-		this._range = range;
-	}
+  constructor(brand, motor, color, range) {
+    super(brand, motor, color);
+    this._range = range;
+  }
 
-	cloneCar() {
-		return new Car(s._brand, this._motor, this._color);
-	}
+  get range() {
+    return this._range;
+  }
+
+  cloneCar() {
+    return new Car(this._brand, this._motor, this._color);
+  }
 }
