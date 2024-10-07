@@ -4,4 +4,3 @@ export default function getListStudentIds(students) {
 
   return students.map((students) => students.id);
 }
-    
