@@ -1,5 +1,5 @@
 // return array of students for a spef. city
-default export function updateStudentGradeByCity(students, city, newGrades) {
+export default function updateStudentGradeByCity(students, city, newGrades) {
   if (
     !Array.isArray(students)
     || students.length === 0
