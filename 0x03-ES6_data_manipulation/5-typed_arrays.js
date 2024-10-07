@@ -11,4 +11,4 @@ export default function createInt8TypedArray(length, position, value) {
   intView.setInt8(position, value);
 
   return intView;
-} 
+}
