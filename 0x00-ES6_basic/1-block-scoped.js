@@ -5,8 +5,8 @@ export default function taskBlock(trueOrFalse) {
 
   /* disabling unused vars */
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    task = true;
+    task2 = false;
   }
   /* enabling no-unused-vars */
 
