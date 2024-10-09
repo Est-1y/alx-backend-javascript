@@ -1,11 +1,10 @@
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+  const task = false;  // This value cannot be reassigned
+  let task2 = true;    // This value can be reassigned later
 
   if (trueOrFalse) {
-    const task = true;
-    const task2 = false;
+    task2 = false;     // This is allowed because 'task2' was declared with 'let'
   }
 
-  return [task, task2];
+  return [task, task2];  // task remains 'false', task2 might change based on the condition
 }
