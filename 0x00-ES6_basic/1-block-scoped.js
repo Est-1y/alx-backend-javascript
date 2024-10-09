@@ -1,14 +1,13 @@
-// taskblock function
+/* default function*/
+
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
-
-  /* disabling unused vars */
-  if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    const task = false;
+    const task2 = true;
+  
+    if (trueOrFalse) {
+      const task = true;
+      const task2 = false;
+    }
+  
+    return [task, task2];
   }
-  /* enabling no-unused-vars */
-
-  return [task, task2];
-}
